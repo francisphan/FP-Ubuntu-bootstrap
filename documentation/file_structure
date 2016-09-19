@@ -1,0 +1,22 @@
+[01;34m.[00m
+├── [01;34mVagrant-VMs[00m
+│   └── [01;34mFP-Ubuntu-VM1[00m
+│       └── Vagrantfile
+├── [01;36mbootstrap[00m -> [01;32mscripts/bootstrap.sh[00m
+├── [01;34mconfig[00m
+│   ├── Vagrantfile
+│   └── [01;32mconfig-basic.conf[00m
+├── [01;34mdocumentation[00m
+│   └── file_structure
+├── [01;34mlog[00m
+├── [01;36mnuke_VMs[00m -> [01;32mutil/nuke_VMs.sh[00m
+├── [01;34mscripts[00m
+│   ├── [01;32mbootstrap.sh[00m
+│   └── [01;32mvagrant-vm-commands.sh[00m
+└── [01;34mutil[00m
+    ├── [01;32mmaster_bashrc[00m
+    ├── [01;32mnuke_VMs.sh[00m
+    ├── [01;32muser_bashrc[00m
+    └── [01;32mvagrant-vimrc[00m
+
+7 directories, 12 files
