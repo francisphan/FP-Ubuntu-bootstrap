@@ -20,4 +20,4 @@ done
 echo "====> Installing brew to Virtual Machine"
 cd $vmdir && vagrant ssh -c "sudo apt-get -y install git"
 cd $vmdir && vagrant ssh -c "git clone \"https://github.com/francisphan/FP-Ubuntu-bootstrap.git\""
-cd $vmdir && vagrant ssh -c "cd FP-Ubuntu-bootstrap; sudo config/config-basic.conf 2>&1 | tee -a log/install.log"
+cd $vmdir && vagrant ssh -c "cd FP-Ubuntu-bootstrap; config/config-basic.conf"
